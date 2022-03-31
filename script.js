@@ -1,9 +1,9 @@
-const numbers = document.querySelectorAll(".number")
-const calculatorScreen = document.querySelector('.calculator-screen')
-
 let prevNumber = ''
 let calculationOperator = ''
 let currentNumber = '0'
+
+const numbers = document.querySelectorAll(".number")
+const calculatorScreen = document.querySelector('.calculator-screen')
 
 const updateScreen = (number) => {
    calculatorScreen.value = number 
